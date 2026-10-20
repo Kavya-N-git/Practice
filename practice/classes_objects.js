@@ -24,6 +24,8 @@ class Admin extends User{
 }
 
 const user1 = new Admin("Kavya","WebContentSpecilaist");
+console.log("Before Update")
 user1.viewData();
 user1.editData();
+console.log("After Update")
 user1.viewData();
